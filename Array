@@ -1,1 +1,24 @@
+In Java, an array is a data structure that stores multiple values of the same type in a single variable, using an index.
+
+
+An array is a fixed-size data structure that can store primitives and objects, while a List is a dynamic collection from the Java Collections Framework that stores objects and provides many built-in methods for manipulation.
+Primitive arrays store actual values directly, while object arrays store references to objects. Primitive arrays have default numeric values, while object arrays are initialized with null.
+# Declaration of array with primitive value  
+Declaration	int[] arr;
+Declaration + Size	int[] arr = new int[5];
+Direct Initialization	int[] arr = {1,2,3};
+Using new with values	int[] arr = new int[]{1,2,3};
+2D Array	int[][] arr = new int[3][3];
+Jagged Array	int[][] arr = new int[3][];
+
+# Declaration of array with object value  
+Declaration + Memory Allocation
+String[] names = new String[3];
+
+
+Feature 	Primitive Array	      Object Array
+Stores	  Actual values	        Object references
+Default   value	0, false, etc.	null
+Example	  int[] arr	            String[] names
+Memory	  Direct value	        Reference to object
 
